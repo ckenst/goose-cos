@@ -1,0 +1,60 @@
+# Inbox Scan Spec — Questionnaire Checklist
+
+## Email Scope
+- Which email account(s) are in scope?
+- What is the exact search window? (timezone + start/end)
+- Which Gmail categories are excluded? (promotions/social/updates/forums)
+- Should specific senders or domains be always included/excluded?
+
+## Actionability Rules
+- What counts as “actionable” for your work?
+- What types of emails should always be skipped?
+- Should follow‑ups be created for unanswered threads?
+
+## Priority Framework (P1–P4)
+- Define P1 with a concrete test:
+- Define P2 with a concrete test:
+- Define P3 with a concrete test:
+- Define P4 with a concrete test:
+- When uncertain, which priority should be the default?
+
+## Due Date Heuristics
+- If a deadline is mentioned explicitly, how should it be parsed?
+- If no deadline, what default due date should be used?
+- Should weekends be avoided for due dates?
+
+## Duration Heuristics
+- Default duration when unknown:
+- Common task types and typical durations:
+
+## Notion Tasks DB (New)
+- Database name:
+- Required fields:
+- Optional fields:
+- Status options:
+- Priority options:
+- Project/Area taxonomy:
+- Link back to source email (URL field? rich text? relation?):
+
+## De‑duplication
+- What constitutes a duplicate task?
+- Should completed duplicates be ignored or resurrected?
+- Should a new email update an existing task’s context?
+
+## Safety & Boundaries
+- Confirm: read‑only email access
+- Confirm: no email drafts/sends
+- Confirm: no calendar access
+- Any other explicit “never do” rules?
+
+## State Tracking
+- Where should the last‑run timestamp be stored?
+- What should happen if the state file is missing or corrupted?
+
+## Daily Review Workflow
+- How should the daily summary be delivered? (console, file, email, Notion page)
+- Do you want a manual approval step before tasks are created?
+
+## Goose Mapping (Later)
+- Expected Goose tools or connectors:
+- Any required credentials or secrets handling:
