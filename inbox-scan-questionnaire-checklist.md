@@ -2,14 +2,20 @@
 
 ## Email Scope
 - Which email account(s) are in scope?
+    - ckenst@gmail.com, chris@kenst.com
 - What is the exact search window? (timezone + start/end)
+    - Inbox
 - Which Gmail categories are excluded? (promotions/social/updates/forums)
+    - Anything archived, not in the inbox
 - Should specific senders or domains be always included/excluded?
+    - No
 
 ## Actionability Rules
 - What counts as “actionable” for your work?
 - What types of emails should always be skipped?
+    - None
 - Should follow‑ups be created for unanswered threads?
+    - Yes
 
 ## Priority Framework (P1–P4)
 - Define P1 with a concrete test:
@@ -20,8 +26,11 @@
 
 ## Due Date Heuristics
 - If a deadline is mentioned explicitly, how should it be parsed?
+    - It will go on my Google Calendar
 - If no deadline, what default due date should be used?
+    - none
 - Should weekends be avoided for due dates?
+    - No
 
 ## Duration Heuristics
 - Default duration when unknown:
