@@ -29,7 +29,8 @@ Include if:
 
 Skip if:
 - FYIs / no action requested
-- Newsletters / promotions / automated notifications
+- Newsletters and non-actionable notifications
+- Do not skip bills solely because they are notifications
 - Threads already captured as tasks
 
 ## Task Creation Rules (Notion)

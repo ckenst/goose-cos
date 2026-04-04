@@ -12,9 +12,14 @@
 
 ## Actionability Rules
 - What counts as “actionable” for your work?
+    - Bills
+    - Social media comments
+    - Invoices
+    - Personal emails from Cliff, Sally or Emmalin or other friends
 - What types of emails should always be skipped?
-    - None
-- Should follow‑ups be created for unanswered threads?
+    - Newsletters
+    - Most notifications, but not bills
+- Should follow‐ups be created for unanswered threads?
     - Yes
 
 ## Priority Framework (P1–P4)
@@ -28,12 +33,13 @@
 - If a deadline is mentioned explicitly, how should it be parsed?
     - It will go on my Google Calendar
 - If no deadline, what default due date should be used?
-    - none
+    - Skip
 - Should weekends be avoided for due dates?
     - No
 
 ## Duration Heuristics
 - Default duration when unknown:
+    - Skip
 - Common task types and typical durations:
 
 ## Notion Tasks DB (New)
@@ -62,8 +68,6 @@
 
 ## Daily Review Workflow
 - How should the daily summary be delivered? (console, file, email, Notion page)
+    - Email
 - Do you want a manual approval step before tasks are created?
-
-## Goose Mapping (Later)
-- Expected Goose tools or connectors:
-- Any required credentials or secrets handling:
+    - Yes
