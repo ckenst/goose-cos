@@ -8,6 +8,11 @@
     "notion:backlog:dry-run": "node scripts/notion-backlog.mjs --dry-run --title \"Example backlog item\" --content \"Created by chiefOS dry run.\"",
     "notion:backlog:search": "node scripts/notion-backlog-search.mjs",
     "notion:backlog:search:dry-run": "node scripts/notion-backlog-search.mjs --dry-run --query \"example\"",
+    "notion:weekly-plan": "node scripts/notion-weekly-plan.mjs",
+    "notion:weekly-plan:working": "node scripts/notion-weekly-plan.mjs --view working",
+    "notion:weekly-plan:todo": "node scripts/notion-weekly-plan.mjs --view todo",
+    "notion:weekly-plan:summary": "node scripts/notion-weekly-plan.mjs --view summary",
+    "notion:weekly-plan:dry-run": "node scripts/notion-weekly-plan.mjs --dry-run --view summary",
     "test": "node --test"
   },
   "engines": {

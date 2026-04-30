@@ -43,6 +43,46 @@ npm run notion:backlog:search -- --query "Playwright"
 
 The command returns matching page titles, common property values, page URLs, and plain text from top-level page blocks.
 
+## Weekly Plan
+
+Use Weekly Plan commands when the user asks what they are working on, what they are supposed to work on this week, or asks to move items between weekly columns.
+
+What am I working on?
+
+```sh
+npm run notion:weekly-plan:working
+```
+
+What am I supposed to work on this week?
+
+```sh
+npm run notion:weekly-plan:summary
+```
+
+What is still to do?
+
+```sh
+npm run notion:weekly-plan:todo
+```
+
+Add an item:
+
+```sh
+npm run notion:weekly-plan -- --action add --title "Return iPhone Mini to T-Mobile" --status Doing --due-date 2026-04-30
+```
+
+Move an item:
+
+```sh
+npm run notion:weekly-plan -- --action move --title "Build out Chief of Staff" --to-status Doing
+```
+
+Set a due date:
+
+```sh
+npm run notion:weekly-plan -- --action set-due-date --title "TCorg newsletter" --due-date 2026-04-30
+```
+
 ## Dry Run
 
 Use dry run to inspect the Notion API payload without creating anything:
@@ -67,6 +107,8 @@ npm run notion:backlog:search:dry-run
 
 The intended workflow is chat-first:
 - When the user asks ChiefOS to create something in Notion, the chat should use the Backlog command unless a more specific destination is configured.
+- When the user asks what they are working on, use the Weekly Plan `Doing` view.
+- When the user asks what they are supposed to work on this week, use the Weekly Plan summary view.
 - When the user asks a question that should be answered from Notion, the chat should search the relevant Notion destination before answering.
 - If Notion credentials or database IDs are missing, the chat should say what is missing rather than pretending it checked Notion.
 - If multiple Notion destinations exist later, the chat should choose the most specific destination first and fall back to Backlog for general capture.

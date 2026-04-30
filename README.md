@@ -26,6 +26,8 @@ Notion:
 - Setup guide: `docs/integrations/notion.md`
 - Command: `npm run notion:backlog -- --title "Example item"`
 - Search command: `npm run notion:backlog:search -- --query "Example"`
+- Weekly Plan working view: `npm run notion:weekly-plan:working`
+- Weekly Plan summary: `npm run notion:weekly-plan:summary`
 
 My unique things:
 
